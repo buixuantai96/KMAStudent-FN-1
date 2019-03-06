@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dangky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/dp100"
+        android:layout_height="@dimen/dp100"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp18"
+        android:src="@drawable/logokma_final" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp16"
+        android:background="@color/nen_Linear_phu"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:gravity="center"
+            android:text="@string/dang_ky"
+            android:textColor="@color/chu_dang_ky"
+            android:textSize="@dimen/sp20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp6"
+            android:paddingLeft="@dimen/dp18"
+            android:text="@string/ma_sinh_vien" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:id="@+id/edt_masv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp16"
+            android:background="@color/nen_khung_con"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="@dimen/dp10"
+            android:hint="@string/at11"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingRight="@dimen/dp16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp6"
+            android:paddingLeft="@dimen/dp18"
+            android:text="@string/mat_khau" />
+
+        <EditText
+            android:id="@+id/edt_mat_khau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp16"
+            android:background="@color/nen_khung_con"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+            android:drawablePadding="@dimen/dp10"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingRight="@dimen/dp16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp6"
+            android:paddingLeft="@dimen/dp18"
+            android:text="@string/ho_ten" />
+
+        <EditText
+            android:id="@+id/edt_hoten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp16"
+            android:background="@color/nen_khung_con"
+            android:drawableLeft="@drawable/ic_face_black_24dp"
+            android:drawablePadding="@dimen/dp10"
+            android:hint="@string/ten_vd"
+            android:inputType="text"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingRight="@dimen/dp16" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp6"
+            android:paddingLeft="@dimen/dp18"
+            android:text="@string/mail" />
+
+        <EditText
+            android:id="@+id/edt_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp32"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp16"
+            android:background="@color/nen_khung_con"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:drawablePadding="@dimen/dp10"
+            android:hint="@string/abc_gmail_com"
+            android:inputType="textEmailAddress"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingRight="@dimen/dp16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:padding="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp16"
+            android:layout_marginLeft="@dimen/dp32"
+            android:layout_weight="1"
+            android:id="@+id/btn_xac_nhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/color_btndangnhap"
+
+            android:text="@string/xac_nhan"/>
+
+        <Button
+            android:padding="@dimen/dp16"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp32"
+            android:layout_weight="1"
+            android:id="@+id/btn_thoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/color_btndangky"
+            android:text="@string/btn_thoat" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

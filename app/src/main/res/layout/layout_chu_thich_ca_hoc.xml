@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="@dimen/dp10"
+        android:paddingBottom="@dimen/dp10"
+        android:textColor="@color/chu_dang_ky"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Chú Thích Ca Học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp2"
+        android:background="#1e90ff" />
+
+    <LinearLayout
+        android:padding="@dimen/dp10"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp16"
+            android:background="#CCFFFF"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#b60c07"
+            android:layout_marginLeft="@dimen/dp32"
+            android:text="Ca 1: Tiết 1 - 3"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/dp10"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp16"
+            android:background="#99FF99"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#b60c07"
+            android:layout_marginLeft="@dimen/dp32"
+            android:text="Ca 2: Tiết 4 - 6"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/dp10"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp16"
+            android:background="#FFFF99"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#b60c07"
+            android:layout_marginLeft="@dimen/dp32"
+            android:text="Ca 3: Tiết 7 - 9"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/dp10"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp16"
+            android:background="#FFCC99"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#b60c07"
+            android:layout_marginLeft="@dimen/dp32"
+            android:text="Ca 4: Tiết 10 - 12"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/dp10"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp16"
+            android:background="#EECCFF"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textColor="#b60c07"
+            android:layout_marginLeft="@dimen/dp32"
+            android:text="Ca 5: Tiết 13-16"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/dp10"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp16"
+            android:background="#BFCAE6"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#b60c07"
+            android:layout_marginLeft="@dimen/dp32"
+            android:text="Ca 6: Tiết 15 - 16"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d"
+        />
+
+    <Button
+        android:layout_marginLeft="@dimen/dp40"
+        android:layout_marginRight="@dimen/dp40"
+        android:layout_marginBottom="@dimen/dp10"
+        android:textColor="#FFF"
+        android:id="@+id/btn_Ok_chu_thich"
+        android:backgroundTint="@color/newcal_gridcell_border_today"
+        android:padding="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_gravity="center"
+        android:text="Ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

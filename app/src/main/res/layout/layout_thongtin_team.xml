@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp16">
+
+    <TextView
+        android:layout_marginTop="@dimen/dp16"
+        android:textSize="@dimen/sp15"
+        android:text="Ứng dụng được phát triển bởi Team BPASS:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/chu_dang_ky"
+        android:layout_marginTop="@dimen/dp16"
+        android:text="- Nguyễn Hữu Hoàng (AT11D)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/chu_dang_ky"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="- Lê Việt Dũng (AT11D)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/chu_dang_ky"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="- Bùi Xuân Tài (AT11D)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/chu_dang_ky"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="- Bùi Anh Tuấn (AT11D)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/chu_dang_ky"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="- Nguyễn Hồng Hải (AT11D)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="@dimen/sp15"
+        android:layout_marginTop="@dimen/dp18"
+        android:text="   Ứng dụng giúp cho sinh viên trường Học viện Kỹ thuật mật mã xem lịch học và cập nhật tiến độ học tập của mình. Ngoài ra còn nhiều chức năng khác sẽ được cập nhật trong thời gian tới. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dp8"
+        android:textSize="@dimen/sp15"
+        android:text="   Cảm ơn bạn đã sử dụng ứng dụng của BPASS. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="@dimen/sp15"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="  Mọi ý kiến đóng góp xin vui lòng liên hệ trực tiếp với các thành viên trên (AT11D) hoặc gửi mail về: BPASSTEAM@gmail.com."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

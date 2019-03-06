@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dangnhap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/dp100"
+        android:layout_height="@dimen/dp100"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp32"
+        android:src="@drawable/logokma_final" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dp8"
+        android:text="@string/kma_noidung"
+        android:textColor="@color/color_tvkma_noidung"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edt_ma_sv_dn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp16"
+        android:background="@color/color_backgroud_masv_mk"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="@dimen/dp16"
+        android:hint="@string/masv"
+        android:paddingLeft="@dimen/dp10" />
+
+    <EditText
+        android:id="@+id/edt_mat_khau_dn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@color/color_backgroud_masv_mk"
+        android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+        android:drawablePadding="@dimen/dp16"
+        android:hint="@string/matkhau1"
+        android:paddingLeft="@dimen/dp10"
+        android:inputType="textPassword"
+        />
+
+    <CheckBox
+        android:id="@+id/chk_nho_mat_khau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dp16"
+        android:buttonTint="@color/color_white"
+        android:text="@string/nho_mat_khau"
+        android:textColor="@color/color_white" />
+
+    <Button
+        android:padding="@dimen/dp16"
+        android:id="@+id/btn_dang_nhap_dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp32"
+        android:layout_marginRight="@dimen/dp32"
+        android:backgroundTint="@color/color_btndangnhap"
+        android:text="Đăng Nhập" />
+
+    <Button
+        android:padding="@dimen/dp16"
+        android:id="@+id/btn_dang_ky_dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp32"
+        android:layout_marginRight="@dimen/dp32"
+        android:layout_marginTop="@dimen/dp8"
+        android:backgroundTint="@color/color_btndangky"
+        android:text="@string/dang_ky" />
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BFA5</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="xanh_xacnhan">#22c475</color>
+    <color name="nen_Linear_phu">#d9dbdc</color>
+    <color name="nen_khung_con">#f1f3f4</color>
+    <color name="chu_dang_ky">#193ec1</color>
+    <color name="color_tvkma_noidung">#ff7700</color>
+    <color name="color_btndangky">#f2ad22</color>
+    <color name="color_btndangnhap">#4bdea6</color>
+    <color name="color_white">#fff</color>
+    <color name="color_backgroud_masv_mk">#dfd9d9</color>
+
+    <!--Diem Tai-->
+
+    <color name="colorHigh">#f740fff9</color>
+    <color name="colorLow">#FFFFCC</color>
+    <color name="colorHead">#37ef9f</color>
+
+    <!--lich-->
+    <color name="newcal_gridcell_pressed">#bebebe</color>
+    <color name="newcal_gridcell_today">#E3F2FD</color>
+    <color name="newcal_gridcell_border_today">#00BCD4</color>
+    <color name="newcal_gridcell_inactive">#ffe0e0e0</color>
+    <color name="newcal_gridcell_stroke">#989dab</color>
+    <color name="newcal_tabstrip_indicator">#034593</color>
+
+    <color name="green">#8FCC85</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="light_blue">#0099CC</color>
+
+
+    <!--Nhật kí-->
+    <color name="primary">#00BFA5</color>
+    <color name="primary_dark">#009688</color>
+    <color name="text_primary">#000000</color>
+    <color name="accent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="color_item_press">#080808</color>
+    <color name="color_item_press1">#81C784</color>
+</resources>

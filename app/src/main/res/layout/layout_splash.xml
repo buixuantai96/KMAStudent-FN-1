@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_screen"
+    >
+
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_marginBottom="@dimen/dp15"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center|bottom"
+                android:src="@drawable/logokma_final" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.43"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center|top">
+            <TextView
+                android:layout_marginTop="@dimen/dp18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TRƯỜNG HỌC VIỆN KỸ THUẬT MẬT MÃ"
+                android:textColor="#2940c6"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NƠI CHẮP CÁNH NHỮNG ƯỚC MƠ"
+                android:textColor="#2940c6"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.24"
+            android:gravity="center|top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ProgressBar
+                android:maxHeight="35dip"
+                android:minHeight="35dip"
+                android:minWidth="10dip"
+                android:maxWidth="10dip"
+                android:paddingTop="28dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

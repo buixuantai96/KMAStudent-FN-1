@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <GridView android:id="@+id/weekday_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="7"
+        android:gravity="center"
+        />
+
+    <GridView android:id="@+id/month_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weekday_grid"
+        android:verticalSpacing="@dimen/gridcell_stroke_size"
+        android:horizontalSpacing="@dimen/gridcell_stroke_size"
+        android:background="@color/newcal_gridcell_stroke"
+        android:numColumns="7"
+        android:drawingCacheQuality="high"
+        />
+
+</RelativeLayout>

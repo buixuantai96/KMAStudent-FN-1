@@ -1,0 +1,478 @@
+<resources>
+    <string name="app_name">KMA Student</string>
+    <string name="xac_nhan">Xác Nhận</string>
+    <string name="abc_gmail_com">abc@gmail.com</string>
+    <string name="mail">Mail :</string>
+    <string name="ma_sinh_vien">Mã Sinh Viên :</string>
+    <string name="at11">AT11●●●●</string>
+    <string name="mat_khau">Mật Khẩu :</string>
+    <string name="pass">●●●●●●●●</string>
+    <string name="ho_ten">Họ và Tên :</string>
+    <string name="ten_vd">Nguyễn Văn A</string>
+    <string name="dang_ky">Đăng Ký</string>
+    <string name="nhapdudangky">Vui lòng nhập đủ thông tin</string>
+    <string name="kma_noidung">KMA - Nơi chắp cánh ước mơ</string>
+    <string name="nho_mat_khau">Nhớ mật khẩu</string>
+    <string name="matkhau1">Mật Khẩu</string>
+    <string name="masv">Mã Sinh Viên</string>
+    <string name="btn_thoat">Thoát</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+    <string name="monhoc">Môn học</string>
+    <string name="chitietmon">Chi tiết môn học</string>
+    <string name="danhsachgiangvien">Danh sách Giảng Viên</string>
+    <string name="out">Thoát</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+
+    <!--Tai-->
+    <string name="ma">AT110426</string>
+    <string name ="tensv"> Hoàng đẹp zai ! </string>
+    <string name ="email"> Email</string>
+    <string name ="STT">STT</string>
+    <string name ="tenmon">Tên Môn</string>
+    <string name ="st">Số Tín</string>
+    <string name="cc1">Chuyên Cần</string>
+    <string name="cc2">Cần</string>
+    <string name="gk">Giữa Kỳ</string>
+    <string name="KTHP">Cuối Kỳ</string>
+    <string name="TB">Trung Bình</string>
+    <string name="DVM">DVM</string>
+    <string name="CTDL">CTDL</string>
+    <string name="CSTT">CSTT</string>
+    <string name="DTTT">DTTT</string>
+    <string name="TD5">TD-5</string>
+    <string name="VXL">VXL</string>
+    <string name="OOP">OOP</string>
+    <string name="QTM">QTM</string>
+    <string name="TA3">TA-3</string>
+    <string name ="not">-</string>
+
+    <string name="Bangdiem">Điểm</string>
+    <string name="DiemTK"> Điểm Tổng Kết: </string>
+
+
+    <string name="checkdiem">Nhập điểm không chính xác</string>
+    <string name="quan_ly_diem">Quản Lý</string>
+
+    <!--Lich-->
+    <string name="standardCalendar">Standard Calendar</string>
+    <string name="customCalendar">Custom Calendar</string>
+    <string name="anotherCalendar">Another Calendar</string>
+
+    <string name="customize">Customize</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="undo">Undo</string>
+
+    <!--Nhật ký-->
+    <string name="nhat_ky">Nhật Ký</string>
+    <string name="create_note">Viết Nhật Ký</string>
+    <string name="action_settings">Cài Đặt</string>
+    <string name="add">Thêm</string>
+    <string name="save">Lưu</string>
+    <string name="delete">Xóa</string>
+    <string name="back_forword">Back</string>
+
+    <string name="title_note">Tiêu đề :</string>
+    <string name="content">Nội dung :</string>
+
+    <!--&lt;!&ndash;&ndash;&gt; Dung -->
+    <string name="txt_chon_ki">◆ Chọn Kỳ </string>
+    <string name="txt_chon_nam">◆ Chọn Năm </string>
+
+    <string-array name="chonnam">
+        <item>Năm 1</item>
+        <item>Năm 2</item>
+        <item>Năm 3</item>
+        <item>Năm 4</item>
+        <item>Năm 5</item>
+    </string-array>
+
+    <string-array name="chonki">
+        <item>Kỳ 1</item>
+        <item>Kỳ 2</item>
+    </string-array>
+
+
+    <!--<string-array name="QTM">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="DVM">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="VXL">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="OOP">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="TA3">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+        <!--<item>L06</item>-->
+        <!--<item>L07</item>-->
+        <!--<item>L08</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="CSTT">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="DTTT">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="TD5">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;Thêm&ndash;&gt;-->
+    <!--<string-array name="CTDL">-->
+        <!--<item>L01</item>-->
+        <!--<item>L02</item>-->
+        <!--<item>L03</item>-->
+        <!--<item>L04</item>-->
+    <!--</string-array>-->
+
+
+
+
+    <!--<string-array name="listMonHoc">-->
+        <!--<item>Cấu trúc dữ liệu và giải thuật</item>-->
+        <!--<item>Lập trình hướng đối tượng </item>-->
+        <!--<item>Công nghệ mạng máy tính</item>-->
+        <!--<item>Lập trình C căn bản</item>-->
+        <!--<item>Điện tử tương tự - điện tử số</item>-->
+        <!--<item>Cơ sở lý thuyết truyền tin</item>-->
+        <!--<item>Otomat và ngôn ngữ hình thức</item>-->
+        <!--<item>Thuật toán tổng hợp</item>-->
+        <!--<item>Ruby</item>-->
+    <!--</string-array>-->
+
+
+    <!--Ky` 2 khoa 11-->
+    <string-array name="HTVT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="KTMT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="KTDL">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="KTTSL">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="LTM">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="PTUD">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="TKHT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="THS">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="TACN">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+    </string-array>
+
+    <!--Ky 2 - Khoa 12-->
+
+    <string-array name="TCPIP">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+    </string-array>
+
+    <string-array name="DTTT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+    </string-array>
+
+    <string-array name="KTLT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+    </string-array>
+
+    <string-array name="LTCSDL">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+    </string-array>
+
+    <string-array name="OTO">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+    </string-array>
+
+    <string-array name="QTM">
+        <item>N02</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+    </string-array>
+
+    <string-array name="TRR">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+    </string-array>
+
+    <string-array name="TD4">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+    </string-array>
+
+    <string-array name="TA2">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+        <item>L10</item>
+        <item>L11</item>
+    </string-array>
+
+
+
+
+
+    <!--Ky 2 - Khoa 13-->
+    <string-array name="DCSVN">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+    </string-array>
+
+    <string-array name="TD2">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+    </string-array>
+
+    <string-array name="KNM">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+    </string-array>
+
+    <string-array name="LTC">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+    </string-array>
+
+    <string-array name="CNMLN2">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+    </string-array>
+
+    <string-array name="TOAN2">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+    </string-array>
+
+    <string-array name="VL1">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+        <item>L05</item>
+        <item>L06</item>
+        <item>L07</item>
+        <item>L08</item>
+        <item>L09</item>
+    </string-array>
+
+    <!--Ky 2 năm 4 - Khoa 10 -->
+
+    <string-array name="ATMMT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="DGKDHT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="GTATM">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="KTGT">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="PTTKM">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+    <string-array name="TTANM">
+        <item>L01</item>
+        <item>L02</item>
+        <item>L03</item>
+        <item>L04</item>
+    </string-array>
+
+</resources>

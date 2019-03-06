@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_bang_diem"
+    android:orientation="horizontal"
+    android:weightSum="120.5">
+
+    <TextView
+        android:id="@+id/txtTM"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:background="@drawable/border_bang_diem"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingBottom="5dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/txtST"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="22"
+        android:background="@drawable/border_bang_diem"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+    <EditText
+        android:id="@+id/edtCC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="21"
+        android:background="@drawable/border_bang_diem"
+        android:gravity="center"
+        android:hint="@string/not"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/edtGK"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="21"
+        android:background="@drawable/border_bang_diem"
+        android:gravity="center"
+        android:hint="@string/not"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/edtKTHP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="21"
+        android:background="@drawable/border_bang_diem"
+        android:gravity="center"
+        android:hint="@string/not"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:id="@+id/txtDiemTB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20.5"
+        android:background="@drawable/border_bang_diem"
+        android:gravity="center"
+        android:hint="@string/not"
+        android:maxLength="4"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+</LinearLayout>
+
+
+

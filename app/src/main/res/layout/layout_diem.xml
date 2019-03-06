@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="109.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="31"
+                android:background="@drawable/quan_ly_diem_background"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/imganh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.8"
+                    android:padding="6dp"
+                    android:src="@drawable/logokma_final" />
+
+                <LinearLayout
+
+                    android:id="@+id/LnTen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtchumasv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mã sinh viên :"
+                        android:textColor="#111"
+                        android:textSize="@dimen/sp13" />
+
+                    <TextView
+                        android:id="@+id/txtmasv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_bang_diem"
+                        android:maxLines="1"
+                        android:padding="@dimen/dp10"
+                        android:text="@string/ma"
+                        android:textColor="#111"
+                        android:textSize="@dimen/dp15"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.2"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="bottom|center"
+                        android:maxLines="1"
+                        android:text="@string/quan_ly_diem"
+                        android:textColor="#072bcc"
+                        android:textSize="@dimen/dp20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="top|center"
+                        android:maxLines="1"
+                        android:text="@string/Bangdiem"
+                        android:textColor="#072bcc"
+                        android:textSize="@dimen/dp20"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="32.5"
+                android:background="@drawable/qldiem_2_background"
+                android:orientation="horizontal"
+                android:weightSum="120.5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:background="@drawable/border_bang_diem"
+                    android:gravity="center"
+                    android:padding="@dimen/dp5"
+                    android:text="@string/tenmon"
+                    android:textColor="#111"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="22"
+                    android:background="@drawable/border_bang_diem"
+                    android:gravity="center"
+                    android:padding="@dimen/dp5"
+                    android:text="@string/st"
+                    android:textColor="#111"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="21"
+                    android:background="@drawable/border_bang_diem"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="@string/cc1"
+                    android:textColor="#111"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="21"
+                    android:background="@drawable/border_bang_diem"
+                    android:gravity="center"
+                    android:padding="@dimen/dp5"
+                    android:text="@string/gk"
+                    android:textColor="#111"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="21"
+                    android:background="@drawable/border_bang_diem"
+                    android:gravity="center"
+                    android:padding="@dimen/dp5"
+                    android:text="@string/KTHP"
+                    android:textColor="#111"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20.5"
+                    android:background="@drawable/border_bang_diem"
+                    android:gravity="center"
+                    android:padding="@dimen/dp5"
+                    android:text="@string/TB"
+                    android:textColor="#111"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <GridView
+                android:id="@+id/gvDiem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="12.5"
+                android:numColumns="1"></GridView>
+
+
+            <LinearLayout
+                android:id="@+id/LnDiemTK"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="33.5"
+                android:background="@color/colorLow"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/DiemTK"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtDiemTK"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center"
+                    android:maxLength="4"
+                    android:text="@string/not"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

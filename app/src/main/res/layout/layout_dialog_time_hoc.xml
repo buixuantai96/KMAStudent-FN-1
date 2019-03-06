@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp8"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp8"
+        android:text="Thời Gian Học Các Tiết"
+        android:textColor="@color/chu_dang_ky"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp2"
+        android:background="#1e90ff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:padding="@dimen/dp8"
+            android:text=" Sáng"
+            android:textColor="#066b7c"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:padding="@dimen/dp8"
+            android:text=" Chiều"
+            android:textColor="#066b7c"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 1: 7h00' - 7h45'"
+            android:textColor="#b60c07" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="wrap_content"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 7: 12h30' - 13h15'"
+            android:textColor="#b60c07" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 2: 7h50' - 8h35'"
+            android:textColor="#b60c07" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="wrap_content"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 8: 13h20' - 14h05'"
+            android:textColor="#b60c07" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 3: 8h40' - 9h25'"
+            android:textColor="#b60c07" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="wrap_content"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 9: 14h10' - 14h55'"
+            android:textColor="#b60c07" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 4: 9h35' - 10h20'"
+            android:textColor="#b60c07" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="wrap_content"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 10: 15h05'-15h50'"
+            android:textColor="#b60c07" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 5: 10h25' - 11h10'"
+            android:textColor="#b60c07" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="wrap_content"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 11: 15h55'-16h40'"
+            android:textColor="#b60c07" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 6: 11h15' - 21h00'"
+            android:textColor="#b60c07" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="wrap_content"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 12: 16h45'-17h30'"
+            android:textColor="#b60c07" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp8"
+        android:text=" Tối"
+        android:textColor="#066b7c" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 13-14: \n 18h00' - 19h30'"
+            android:textColor="#b60c07" />
+
+        <TextView
+            android:layout_width="@dimen/dp2"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="@dimen/dp8"
+            android:text=" Tiết 15-16: \n  19h45' - 21h15'"
+            android:textColor="#b60c07" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efdc4d" />
+
+
+    <Button
+        android:id="@+id/btn_Ok_time_hoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginLeft="@dimen/dp40"
+        android:layout_marginRight="@dimen/dp40"
+        android:layout_marginTop="@dimen/dp16"
+        android:backgroundTint="@color/color_btndangnhap"
+        android:padding="@dimen/dp16"
+        android:text="Ok"
+        android:textColor="#FFF" />
+
+</LinearLayout>

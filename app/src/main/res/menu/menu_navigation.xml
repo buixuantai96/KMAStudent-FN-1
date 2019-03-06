@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/calendar_48"
+            android:title="Home" />
+    </group>
+
+
+    <item android:title="Chức Năng">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_mon_hoc"
+                    android:icon="@drawable/books_48"
+                    android:title="Môn Học" />
+                <item
+                    android:id="@+id/nav_ql_diem"
+                    android:icon="@drawable/accounting_48"
+                    android:title="Quản Lý Điểm" />
+                <item
+                    android:id="@+id/nav_nhat_ky"
+                    android:icon="@drawable/edit_property_48"
+                    android:title="Nhật Ký" />
+            </group>
+        </menu>
+    </item>
+
+
+
+        <item android:title="Hỗ Trợ">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_chia_se"
+                    android:icon="@drawable/share_48"
+                    android:title="Chia sẻ ứng dụng" />
+                <item
+                    android:id="@+id/nav_thong_tin"
+                    android:icon="@drawable/info_48"
+                    android:title="Thông tin nhà phát triển" />
+                </group>
+            </menu>
+        </item>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cai_dat"
+            android:icon="@drawable/settings_48"
+            android:title="Cài Đặt" />
+        <item
+            android:id="@+id/nav_dang_xuat"
+            android:icon="@drawable/shutdown_48"
+            android:title="Đăng Xuất" />
+    </group>
+
+</menu>
